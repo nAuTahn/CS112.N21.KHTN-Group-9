@@ -20,5 +20,8 @@
 * **Giảng viên**: TS. Nguyễn Thanh Sơn
 
 ## Về bài tập trên lớp:
-Được lưu trữ tại thư mục [Assignment](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9), trong đó có các thư mục nhỏ chứa bài làm tương ứng của các tuần như sau:
-- Tuần 1 (Thư mục: [Week1](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9)): Lựa chọn CRDL và thiết kế thuật toán song song cho Merge Sort
+Được lưu trữ tại thư mục [Assignments](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Assignments), trong đó có các thư mục nhỏ chứa bài làm tương ứng của các tuần như sau:
+- Tuần 1 (Thư mục: [Week1](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Assignments/Week%201)): Lựa chọn CRDL và thiết kế thuật toán song song cho Merge Sort
+
+## Về bài tập do các nhóm đề xuất:
+Được lưu trữ tại thư mục [Exercises](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Exercises).
