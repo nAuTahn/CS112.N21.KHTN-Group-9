@@ -24,4 +24,4 @@
 - Tuần 1 (Thư mục: [Week1](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Assignments/Week%201)): Lựa chọn CRDL và thiết kế thuật toán song song cho Merge Sort
 
 ## Về bài tập do các nhóm đề xuất:
-Được lưu trữ tại thư mục [Report_Ex](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Exercises](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Report_Ex)) các báo cáo và [Code_Ex](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Code_Ex) phần code cho các bài tập.
+Được lưu trữ tại thư mục [Report_Ex](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Report_Ex) các báo cáo và [Code_Ex](https://github.com/nAuTahn/CS112.N21.KHTN-Group-9/tree/main/Code_Ex) phần code cho các bài tập.
