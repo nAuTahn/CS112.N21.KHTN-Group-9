@@ -3,7 +3,7 @@ using namespace std;
 
 vector<pair<int,string>> a(9);
 
-int calc(vector<int> trafficLine, int i){
+int calc(vector<int> trafficLight, int i){
 	int cnt = 9;
 	int ret = 0;
 	while (--cnt >= 0){
@@ -12,12 +12,12 @@ int calc(vector<int> trafficLine, int i){
 		ret += a[cnt].first * tmp;
 		for (char ch : a[cnt].second){
 			int pos = ch - '1';
-			trafficLine[pos] = (trafficLine[pos] + tmp)%3;
+			trafficLight[pos] = (trafficLight[pos] + tmp)%3;
 		}
 	}
 	bool flag = true;
 	for (int i = 0; i<9; i++){
-		if (trafficLine[i] != 0) flag = false;
+		if (trafficLight[i] != 0) flag = false;
 	}
 	if (flag) return ret;
 	else return 0;
@@ -38,17 +38,17 @@ int main()
 
 	string s;
 	cin >> s;
-	vector<int> trafficLine(9);
+	vector<int> trafficLight(9);
 	for (int i = 0; i<9; i++){
-		if (s[i] == 'X') trafficLine[i] = 0;
-		if (s[i] == 'V') trafficLine[i] = 1;
-		if (s[i] == 'D') trafficLine[i] = 2;
+		if (s[i] == 'X') trafficLight[i] = 0;
+		if (s[i] == 'V') trafficLight[i] = 1;
+		if (s[i] == 'D') trafficLight[i] = 2;
 	}
 
 	int MAX = pow(3,9);
 	int ans = INT32_MAX;
 	for (int i = 0; i<MAX; i++){
-		int tmp = calc(trafficLine,i);
+		int tmp = calc(trafficLight,i);
 		if (tmp){
 			ans = min(ans,tmp);
 		};
